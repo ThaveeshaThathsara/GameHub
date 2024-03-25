@@ -1,0 +1,86 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 0;
+  margin-bottom: 0;
+    
+
+}
+body{
+    padding-top: 100px;
+    background-color: rgb(44, 41, 41);
+    text-align: center;
+}
+.myn{
+    font-size: 35px;
+    color: white;
+}
+.hed{
+    color: white;
+}
+.contact{
+    color: white;
+    text-align: center;
+}
+.portfolio{
+    text-align: center;
+    color: white;
+}
+.about{
+    text-align: center;
+    color: white;
+    
+}
+.aboutdes{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+.aboutmyinto{
+  font-size: 25px;
+}
+
+.port{
+    color: red;
+    font-size: 25px;
+}
+.hello{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 25px;
+    color: orange;
+}
+
+.aboutmyintro{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.btmn{
+    
+    height: 250px;
+    width: 200px;
+    float:right;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+.myworks{
+    color: white;
+}
+
+.myid{
+  color: white;
+  font-size: 20px;
+}
+.worksidone{
+  font-size: 25px;
+  list-style: none;
+}
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Streaming Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #4e4d4d;
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #080808;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #000000;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .stream-embed {
+            width: 100%;
+            height: 500px; /* Adjust height to fit your stream player */
+        }
+
+        footer {
+            background-color: #090909;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        }
+
+        .title {
+        color: grey;
+        font-size: 18px;
+        }
+
+        button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #f00808;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+
+        a {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+        }
+
+        button:hover, a:hover {
+        opacity: 0.7;
+        }
+        .stream-embed{
+            display: flex;
+            
+        }
+        .card{
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+        .portfolio{
+            text-align: center;
+            color: white;
+        }
+        .port{
+            color: red;
+            font-size: 25px;
+        }
+        /*textanimation                  */
+
+        .wrapper{
+        display: flex;
+        }
+        .wrapper .static-txt{
+        color: #fff;
+        font-size: 60px;
+        font-weight: 400;
+        }
+        .wrapper .dynamic-txts{
+        margin-left: 15px;
+        height: 90px;
+        line-height: 90px;
+        overflow: hidden;
+        }
+        .dynamic-txts li{
+        list-style: none;
+        color: #d72525;
+        font-size: 60px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(4) infinite;
+        }
+        @keyframes slide {
+        100%{
+            top: -360px;
+        }
+        }
+        .dynamic-txts li span{
+        position: relative;
+        margin: 5px 0;
+        line-height: 90px;
+        }
+        .dynamic-txts li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 150%;
+        background: #4e4d4d;
+        border-left: 5px solid #d72525;
+        animation: typing 3s steps(10) infinite;
+        }
+        @keyframes typing {
+        40%, 60%{
+            left: calc(100% + 30px);
+        }
+        100%{
+            left: 0;
+        }
+}
+    
+</style>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: red;">Gaming Streaming Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#streams">Streams</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section class="portfolio">
+
+            
+            <div class="wrapper">
+                <div class="static-txt" style="color: red;">You Can Join:</div>
+                <ul class="dynamic-txts">
+                  <li><span> Tournaments</span></li>
+                  <li><span>Streems</span></li>
+                  <li><span>Events</span></li>
+                  
+                </ul>
+              </div>
+           
+            <!--<br>
+            Image Gallary
+            <br><br>
+             Site Map
+
+            <br><br>-->
+            
+        </section>
+        <section id="about">
+            <h2 style="text-align: center; color: white;" >Enjoy Day</h2>
+            <!-- Add your introduction and gaming background here -->
+            <p style="color: white; text-align: justify; font-weight: bold;">
+                Welcome to the adrenaline-pumping realm of GameSphere! Brace yourself for an unparalleled gaming experience as we dive headfirst into the virtual universe. Whether you're a battle-hardened veteran or a rookie adventurer, our streaming platform is your gateway to endless entertainment and electrifying gameplay.
+            </p>
+        </section>
+
+        <section id="streams">
+            <h2 style="text-align: center; color: white;">Streams</h2>
+            <!-- Add embedded stream player from your preferred streaming platform here -->
+            <div class="stream-embed">
+                
+
+                    <div class="card">
+                        <img src="pew.jpg" alt="John" style="width:100%" class="image">
+                        <h2>pewdiepie</h2>
+                        <p class="title"style="color: white;">YouTube, Entrepreneur</p>
+                        <p><a href="https://www.youtube.com/@PewDiePie"><button>Channel</button></p></a>
+                      </div>
+
+                      <div class="card">
+                        <img src="maniya.jpg" alt="John" style="width:100%" class="image">
+                        <h2>Maniya</h2>
+                        <p class="title"style="color: white;">YouTuber Entrepreneur</p>
+                        <p><a href="https://www.youtube.com/@ManiYaStreams"><button>Channel</button></a></p>
+                      </div>
+
+                      <div class="card">
+                        <img src="My project.jpg" alt="John" style="width:100%" class="image">
+                        <h2>Ninja</h2>
+                        <p class="title" style="color: white;">YouTube Professional gamer</p>
+                        <p><a href="https://www.youtube.com/@Ninja"><button>Channel</button></a></p>
+                      </div>
+
+                      <div class="card">
+                        <img src="logamer.jpg" alt="John" style="width:100%" class="image">
+                        <h2>Loserfruit</h2>
+                        <p class="title" style="color: white;">CEO & Founder, Example</p>
+                        <p><a href="https://www.youtube.com/@Loserfruit"><button>Channel</button></a></p>
+                      </div>
+
+                      <div class="card">
+                        <img src="sr.jpg" alt="John" style="width:100%" class="image">
+                        <h2>Drlupo</h2>
+                        <p class="title" style="color: white;">CEO & Founder, Example</p>
+                        <p><a href="https://www.youtube.com/@DrLupo"><button>Channel</button></a></p>
+                      </div>
+
+
+            </div>
+        </section>
+
+        <section class="turna">
+            <h2 style="color: white; text-align: center;">Gaming Events</h2>
+
+        </section>
+
+        <section id="contact" style="color: white;">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <!-- Add your contact information or a contact form here -->
+            <p style="text-align: center;">
+                You can reach out to me through email at: your_email@example.com
+            </p>
+        </section>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

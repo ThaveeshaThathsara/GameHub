@@ -1,0 +1,305 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(44, 41, 41); */
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #faf5f5;
+    background-color: #000000;
+    
+  }
+  
+  
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+  }
+  .news-section{
+    margin-left: 50px;
+  }
+  
+  .news-section article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .news-section article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .news-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .news-section p {
+    margin-bottom: 5px;
+  }
+  
+  .news-section time {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .sidebar {
+    background-color: rgba(223, 127, 31, 0.889);
+   
+  
+  }
+  img{
+    height: 300px;
+    
+  }
+  p{
+    font-weight: bold;
+  }
+  
+  
+  h4{
+    font-weight: bold;
+    font-size: 25px;
+    color: #ea0707;
+  }
+  
+  .h1slide{
+    color: rgb(224, 15, 15);
+  }
+  
+  .sidebar h2{
+    font-size: 20px;
+  }
+  
+  .sidebarimg{
+    height: 150px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 35px;
+    display: block;
+    
+  
+  }
+  
+  .sidebar h2{
+    color: black;
+    text-align: center;
+  }
+    
+  
+  
+  
+  
+  
+
+/* navbar */
+header{
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 10%;
+  z-index: 100;
+  background: #df7f1f;
+  box-shadow: 0 0 10px black;
+text-align: center;
+background-color: #df7f1f;
+}
+.nav-container h1{
+text-align: center;
+color: white;
+background-color: #df7f1f;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+li{
+padding: 20px;
+list-style: none;
+text-align: center;
+}
+.bx{
+color: white;
+cursor: pointer;
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px 0;
+}
+
+.navbar{
+/*position: fixed;*/
+top: 50%;
+left: 18px;
+display: flex;
+flex-direction: column;
+row-gap: 2rem;
+/*transform: translateY(-50%);*/
+.li{
+padding: 20px 0px;
+}
+
+}
+.nav-link{
+display: flex;
+flex-direction: column;
+align-items: left;
+color: white;
+text-align: center;
+}
+.nav-link:hover{
+color: black;
+transition: 0.3s all linear;
+transform: scale(1.1);
+}
+.bx:hover{
+color: black;
+transition: 0.3s all linear;
+transform: scale(1.1);
+}
+#icon{
+font-size: 30px;
+/*margin-right: 40px;*/
+}
+
+.logo{
+width: 95px;
+height: 95px;
+margin-top: 20px;
+
+
+}
+
+
+/* footer */
+
+body, .footer1, div {
+  margin: 0;
+  padding: 0;
+}
+
+.footer1 {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #df7f1f;
+  padding: 20px;
+}
+
+.nav-details2, .my-details6, .contact-details9 {
+  flex: 1; 
+  padding: 10px;
+}
+
+
+.nav-details2 {
+  background-color: #df7f1f; 
+
+}
+.nav-word5:hover{
+  color: rgb(96, 37, 37);
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+}
+.nav-word5{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+  background-color: #df7f1f;
+}
+.ul3{
+
+  list-style: none;  
+}
+
+
+.my-details6 {
+  background-color: #df7f1f;
+  text-align: center; 
+}
+.typ7{
+  color: #efe8e8;
+  background-color: #df7f1f;
+}
+
+.contact-details9 {
+  background-color: #df7f1f; 
+  text-align: right; 
+  margin-right: 50px;
+}
+.con10{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #df7f1f;
+}
+.con10:hover{
+  color: red;
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+}
+.logo8{
+  width: 100px;
+  height: 100px;
+}
+/* button footer */
+.editorpagebtn{
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  height: 50px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+.editorpagebtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.editorpagebtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.editorpagebtn:hover span {
+  padding-right: 25px;
+}
+
+.editorpagebtn:hover span:after {
+  opacity: 1;
+right: 0;
+}
+  

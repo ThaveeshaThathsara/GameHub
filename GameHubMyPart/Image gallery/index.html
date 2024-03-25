@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Image Gallery</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+
+
+ 
+
+</head>
+  <header>
+    <!--navigation bar-->
+      <div class="nav-container">
+          <img src="logo.png" class="logo" alt="logo">
+
+          <div class="navbar">
+              <ul>
+                  <li><a href="home.html" class="nav-link"><i class='bx bxs-home' id="icon"></i><p class="homelist">Home</p></a></li>
+                  <li><a href="comment.html" class="nav-link"><i class='bx bxs-comment' id="icon"></i><p class="commentlist">Comment</p></a></li>
+                  <li><a href="market place .html" class="nav-link"><i class='bx bxs-store' id="icon"></i><p class="shoplist">Shop</p></a></li>
+                  <li><a href="" class="nav-link"><i class='bx bxs-pencil' id="icon"></i><p class="quizlist">Quiz</p></a></li>
+                  <li><a href="" class="nav-link"><i class='bx bxs-group' id="icon"></i><p class="aboutuslist">About Us</p></a></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+<!--This Div for color-switcher-->
+<div class="color-swicher">
+    <div class="color-swicher-btn">
+      <i class="fas fa-cog"></i>
+    </div>
+    <!--This Div for color-switcher buttons-->
+    <div class="theme-button-container">
+      <span class="theme-button" data-color="#8A807F" style="background: hwb(288 46% 52%);"></span>
+      <span class="theme-button" data-color="#000000" style="background: #1e1d1d;"></span>
+      <span class="theme-button" data-color="#A81C1C" style="background: hsl(6, 71%, 31%);"></span>
+    </div>
+</div>
+  <br><br><br>
+  <!--This Div for change font size-->
+<div class="font-container">
+
+    <div class="buttons">
+     
+
+        <button type="button" class="button active" onclick="fontchange(18)">A</button>
+        <button type="button" class="button" onclick="fontchange(23)">A</button>
+        <button type="button" class="button" onclick="fontchange(27)">A</button>
+    </div>    
+  
+</div>  
+
+<div id="gall">
+          <div>
+            <h1 id="para">Image Gallery</h1>
+                            
+          </div>
+          <br><br>
+
+          <div class="featured-image" >
+
+              <img src="witcher1.jpg" alt="Featured Image">
+              <div class="featured-image-info">
+              <h2 id="para"><b> Description About The Game</b></h2><br>
+              <div class="image-caption"><b><p class="paragraph"  >Wild Hunt is an action role-playing game with a third-person perspective. Players control Geralt of Rivia, a monster slayer known as a Witcher. Geralt walks, runs, rolls and dodges, and (for the first time in the series) jumps, climbs and swims.</p></b></div>
+              </div>
+          </div>
+
+          <div class="gallery-container">
+
+              <div class="gallery">
+
+              <div>
+                  <img src="witcher1.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Wild Hunt is an action role-playing game with a third-person perspective. Players control Geralt of Rivia, a monster slayer known as a Witcher. Geralt walks, runs, rolls and dodges, and (for the first time in the series) jumps, climbs and swims.</p></div>
+              </div>
+              <div>
+                  <img src="batman.jpg" alt="Image 1">
+                  <div class="image-caption"><p id="paragraph">Batman: Arkham Knight is an action-adventure game set within an open world Gotham City, which can be explored freely by the player from the beginning of the game, allowing them to travel seamlessly anywhere within its boundaries.</p></div>
+              </div>
+              <div>
+                  <img src="battlefeild.jpg" alt="Image 2">
+                  <div class="image-caption"><p id="paragraph">Battlefield V is a first-person shooter game developed by DICE and published by Electronic Arts. It is the eleventh main installment in the Battlefield series and the successor to 2016's Battlefield 1, and was released for PlayStation 4, Windows, and Xbox One on November 20, 2018.</p></div>
+              </div>
+              
+              <div>
+                  <img src="cod.jpg" alt="Image 3">
+                  <div class="image-caption"><p id="paragraph">Call of Duty is an American video game series and media franchise published by Activision. Starting in 2003, the games were first developed by Infinity Ward, then also by Treyarch and Sledgehammer Games. Several spin-off and handheld games were made by other developers.</p></div>
+              </div>
+              <div>
+                  <img src="creed.jpg" alt="Image 4">
+                  <div class="image-caption"><p id="paragraph">Assassin's Creed is an action-adventure game, set in an open-world environment, which is played from a third-person view in which the player primarily assumes the role of Altaïr, as experienced by protagonist Desmond Miles.</p></div>
+              </div>
+              <div>
+                  <img src="cry.jpg" alt="Image 5">
+                  <div class="image-caption"><p id="paragraph">Far Cry 6 takes place in 2021 in Yara, a fictional Caribbean island nation inspired by Cuba and ruled by the dictator Antón Castillo (Giancarlo Esposito). A 1967 guerrilla revolution that toppled the presidency of his father led to Yara's isolation from the rest of the world.</p></div>
+              </div>
+              <div>
+                  <img src="crysis.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Crysis 3's story revolves around Prophet, a Nanosuit holder who is on a quest to take revenge on the Alpha Ceph, the leader of the Ceph alien race. The game's story serves as the end of the Crysis trilogy.</p></div>
+              </div>
+              <div>
+                  <img src="cyber.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Cyberpunk is a subgenre of science fiction in a dystopian futuristic setting that tends to focus on a "combination of lowlife and high tech", featuring futuristic technological and scientific achievements, such as artificial intelligence and cybernetics, juxtaposed with societal collapse, dyst...</p>
+                  </div>
+              </div>
+              <div>
+                  <img src="daysgone.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Days Gone is an open-world action-adventure game set in a harsh wilderness two years after a devastating global pandemic. Step into the dirt flecked shoes of former outlaw biker Deacon St. John, a bounty hunter trying to find a reason to live in a land surrounded by death.</p></div>
+              </div>
+          
+              <div>
+                  <img src="elderring.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Elden Ring is a third-person perspective, action, role-playing game with a focus on combat and exploration. It includes elements that are similar to those in other FromSoftware-developed games such as the Dark Souls series, Bloodborne, and Sekiro: Shadows Die Twice.</p></div>
+              </div>
+          
+              <div>
+                  <img src="dota 2.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Dota 2 is a multiplayer online battle arena (MOBA) video game in which two teams of five players compete to destroy a large structure defended by the opposing team known as the "Ancient" whilst defending their own.</p></div>
+              </div>
+          
+              <div>
+                  <img src="evill.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Resident Evil, or Biohazard in Japan and Southeast Asia, is a Japanese horror game media franchise created by Capcom. It consists of survival horror, third-person shooter and first-person shooter games, with players typically surviving in environments inhabited by zombies and other frightening creatures.</p></div>
+              </div>
+          
+              <div>
+                  <img src="fortnite.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Fortnite is a third-person shooter game where up to 100 players compete to be the last person or team standing. You can compete alone or join a team of up to four. You progress through the game by exploring the island, collecting weapons, building fortifications and engaging in combat with other players.</p></div>
+              </div>
+          
+              <div>
+                  <img src="forza.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series.</p></div>
+              </div>
+          
+              <div>
+                  <img src="ghostofT.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">This is an action game in which players assume the role of a samurai (Jin Sakai) on a quest for vengeance against Mongol invaders in 13th century Japan. Players traverse open-world environments, interact with characters, complete quests (e.g., assassination), and infiltrate enemy strongholds.</p></div>
+              </div>
+          
+              <div>
+                  <img src="spdman.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Marvel's Spider-Man is an open-world third-person action-adventure game, in which the player controls Peter Parker, under his superhero identity Spider-Man, through Manhattan, New York City to fight crime.</p></div>
+              </div>
+          
+              
+              <div>
+                  <img src="htman.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">The story follows cloned assassin Agent 47's efforts to bring down the Franchise, a rival contract killing organization that is threatening his employers, the International Contract Agency (ICA), and seeking to obtain the same cloning technology that created 47.</p></div>
+              </div>
+          
+              <div>
+                  <img src="mine.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">In Minecraft, players explore a blocky, procedurally generated, three-dimensional world with virtually infinite terrain and may discover and extract raw materials, craft tools and items, and build structures, earthworks, and machines.</p></div>
+              </div>
+          
+              <div>
+                  <img src="last of us.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States. The Last of Us is played from a third-person perspective.</p></div>
+              </div>
+          
+              <div>
+                  <img src="nfs.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Need for Speed Heat is a racing game set in an open world environment called Palm City, a fictionalised version of Miami, Florida, and its surrounding areas. The in-game map features diverse geography, including mountainous areas, dense forests, and open fields.</p></div>
+              </div>
+          
+              <div>
+                  <img src="rdr.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">The story is set in a fictionalized representation of the United States in 1899 and follows the exploits of outlaw Arthur Morgan, a member of the Van der Linde gang, who must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries.</p></div>
+              </div>
+          
+              <div>
+                  <img src="uncharted4.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">A Thief's End is an action-adventure game played from a third-person perspective, with platforming elements. Players traverse several environments, moving through locations including towns, buildings, and wilderness to advance through the game's story.</p></div>
+              </div>
+          
+              <div>
+                  <img src="valorant.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.</p></div>
+              </div>
+          
+              <div>
+                  <img src="visage.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Visage is a first-person psychological horror game. Explore a mysterious ever-changing house in a slow-paced, atmospheric world that combines both uncannily comforting and horrifyingly realistic environments, and enjoy a genuinely terrifying experience.</p></div>
+              </div>
+          
+              <div>
+                  <img src="snipe.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Sniper: Ghost Warrior 2 is military style First-Person Shooter (FPS) that specializes in sniper activity. The game is a follow-up to the original Sniper: Ghost Warrior release in 2010, and features sniping action set in three different terrain types: urban, jungle, and mountain.</p></div>
+              </div>
+          
+              <div>
+                  <img src="gta.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective. Players complete missions—linear scenarios with set objectives—to progress through the story. Outside of the missions, players may freely roam the open world.</p></div>
+              </div>
+          
+              <div>
+                  <img src="horizon.jpg" alt="Image 6">
+                  <div class="image-caption"><p id="paragraph">Horizon Zero Dawn is an action role-playing game played from a third-person view. Players take control of Aloy, a hunter who ventures through a post-apocalyptic land ruled by robotic creatures</p></div>
+              </div>
+
+            </div>
+
+          </div>
+</div>  
+<!-- footer -->
+
+  <footer class="footer1" id="footer2">
+    <div class="nav-details2">
+        <ul class="ul3">
+        
+            
+            <li><a href="#"class="nav-word5">About</a></li>
+            
+            <li><a href="#"class="nav-word5">Services</a></li>
+            
+            <li><a href="#"class="nav-word5">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="my-details6">
+        <a href="portfolio/index.html"><button class="editorpagebtn"><span>Editor Page</span></button></a>
+            <p class="typ7">All rights reserved.</p>
+        <img src="logo.png" class="logo8">
+       
+       
+
+    </div>
+
+    <div class="contact-details9">
+        <p class="con10">Contact information :</p>
+        <p><a href="mailto:thaveesha.20222110@iit.ac.lk" class="con10">Palliyaguruge</a></p>
+        <p><a href="mailto:rasindu.20220510@iit.ac.lk" class="con10">Senevirathna</a></p>
+        <p><a href="mailto:thaveesha.20222110@iit.ac.lk" class="con10">Shylan</a></p>
+        <p><a href="mailto:shashikirana.20221976@iit.ac.lk" class="con10">Sathsara</a></p>
+    </div>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
